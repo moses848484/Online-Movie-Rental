@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Movie Rental</title>
+    <title>Customer Login</title>
+    <style>
+        body {
+            background-image: url('../images/chady.jpg'); /* Replace with your background image URL */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+          
+            margin-bottom: 0%;
+        }
+
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.7); /* Background color with opacity */
+            max-width: 400px;
+            margin: 150px;
+            margin-bottom: 150px;
+            margin-left: 500px;
+            padding: 50px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow to the container */
+            
+        }
+
+        .blake {
+            padding: 15px 30px; /* Adjust the padding values as needed */
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+.zone {
+    border-radius: 5px;
+    padding: 10%;
+}
+
+.blakes {
+    margin-left: 27%;
+ margin-bottom: 6%;
+ margin-top: 0%;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(32, 32, 40);
+ font-family: cursive;
+}
+.zones {
+    border-radius: 5px;
+    padding: 10%;
+}
+
+
+        /* Add additional CSS for your login form elements here */
+    </style>
+</head>
+
+<div class="yes"></div> 
+
+<body>
+
+    <div class="container">
+        <!-- ------- Common top menu (except for the index page, changed to 'Logout') ------- -->
+        <nav class="topmenu-nav">
+            <div class="topmenu-nav-links">
+                <a href="../index.html" class="topmenu-nav-links-name">Home</a>
+                <a href="../pages/signup.html" class="topmenu-nav-links-signup">Signup</a>
+            </div>
+       
+        </nav>
+
+    
+
+    <div class="login-container">
+        <!-- Your login form goes here -->
+        <form action="login_action.php" method="post">
+            <h2  class="blakes">Customer Login</h2>
+            <label for="userid"> </label>
+            <input type="text" name="userid" id="userid" placeholder="   Id" class= "zones" required>
+
+        <label for="userpw"> </label>
+        <input type="password" name="userpw" id="userpw" placeholder="   Password" class= "zone" required>
+        <div class="clearfix">
+            <button type="submit" id="loginbtn" class= "blake" value="login">Login</button>
+           
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>

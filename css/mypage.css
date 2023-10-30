@@ -1,0 +1,95 @@
+.content-section{
+    height: auto;
+    height:100%; /* IE6: treaded as min-height*/
+    min-height:90vh; 
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;    
+    flex-direction: column;
+}
+
+
+
+.centerio {
+    width: 40px;
+    height: 100px;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    background: url('../images/Wallpapers.png');
+}
+
+.notification message {
+    color: white;
+}
+
+
+
+.grain {
+    color: aliceblue;
+}
+
+table label{
+    margin: 0 auto;
+}
+.content-section-accountinfo{
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.content-section-movieinfo{
+    width: 95%;
+    max-width: 700px;
+}
+
+.order-list-table, .like-list-table, .bestseller-table{
+    width: 100%;
+    margin: 0 0 1.5rem 0;
+}
+
+.bestseller-table thead tr th{
+	border-top: 2px solid gold
+}
+
+.gold {
+    border-top: 2px solid gold
+}
+
+.message{
+    text-align: center;
+}
+
+form{
+	margin-top: 3rem;
+}
+.playvideobtn{
+    width: auto;
+    border-radius: 10%;
+    color: white;
+    background-color: #cccccc;
+}
+.minibtnbox{
+    display: flex;
+    justify-content: center;
+}
+.searchbtn {
+	padding: 0.8rem;
+    color: white;
+    font-weight: bold;
+    background-color: #ccc;
+    transition-duration: 0.4s;
+}
+
+.searchbtn:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#playbtn{
+    float: right;
+    margin-top: -1.5rem;
+    margin-left: auto;
+}

@@ -1,0 +1,102 @@
+.centerio {
+    width: 1004px;
+    background-color: #4CAF50;
+}
+
+.logoon {
+    align-items: center;
+    background-color: #4CAF50;
+    max-width: 189px;
+}
+
+.mat-card {
+    border: none;
+    background-color: #74ebd5;
+    background-image: linear-gradient(90deg, #74ebd5 -10%, #9caaeb 100%);
+    color: #fff;
+    background: url('../images/Wallpapers.png');
+}
+
+.mat-card-header {
+    background-color: #4CAF50;
+}
+
+h2 {
+    color: #fff;
+    margin-left: 37%;
+}
+
+#container {
+    position: relative;
+    z-index: 1;
+}
+.container::after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-repeat : no-repeat;
+    background-size : cover;    
+    /* background-position: center; */
+    position: center;
+    top: 40;
+    left: 0;
+    z-index: -1;
+    /* opacity: 0.65; */
+}
+.content-section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;    
+    flex-direction: column;
+    margin: 0 1rem;
+
+}
+
+.content-section h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+
+}
+
+.content-section label{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.login-form{
+    position: relative;
+    z-index: 1;
+ 
+}
+.login-form::after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-repeat : no-repeat;
+    background-size : cover;    
+    background-position: center;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    z-index: -1;
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+}
+
+#loginbtn{
+    padding: 0.8rem;
+    color: white;
+    font-weight: bold;
+    background-color: #ccc;
+    transition-duration: 0.4s;
+}
+
+#loginbtn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
